@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.inputBox{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.inputBox input{
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.2px solid black;
+}
